@@ -1,0 +1,18 @@
+{
+  "name": "ocr-concession-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "@types/typescript": "^2.0.0",
+    "nodemon": "^2.0.22",
+    "tesseract.js": "^4.1.1",
+    "tesseract.ts": "^1.1.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
