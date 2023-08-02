@@ -18,13 +18,26 @@ function readAllImages(): Buffer[] {
 async function main() {
   const images = readAllImages();
 
+  const startTime = performance.now();
   const ocrProcessedImages = await Promise.all(
     images.map(async (image) => {
       return ocrImage(image);
     })
   );
+  const endTime = performance.now();
 
   console.log(ocrProcessedImages);
+  //log the total time and the time average per image // cut it at 2 decimals
+  console.log(
+    `Images Processed: ${images.length} | Total time: ${(
+      (endTime - startTime) /
+      1000
+    ).toFixed(2)} seconds | Average time per image: ${(
+      (endTime - startTime) /
+      1000 /
+      images.length
+    ).toFixed(2)} seconds`
+  );
 }
 
 main();
