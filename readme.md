@@ -1,4 +1,4 @@
-### Quick PoC for reading Australia concession cards using tesseract
+### Quick PoC for reading Australian concession cards using tesseract
 
 ##### Description
 
