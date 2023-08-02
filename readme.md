@@ -15,7 +15,8 @@ The ocr results for each card will be shown in the console
 
 ##### Example of the results
 
-Time to process images using tesseract
+Time to process images using tesseract:
+
 `Images Processed: 6 | Total time: 1.19 seconds | Average time per image: 0.20 seconds`
 
 ![example results](readme-example-results-image.png)
