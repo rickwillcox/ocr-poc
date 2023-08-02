@@ -8,6 +8,7 @@ I have code to preprocess these images as well, turn them greyscale / downscale 
 ##### Usage
 
 `yarn install`
+
 `yarn start`
 
 The ocr results for each card will be shown in the console
