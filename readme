@@ -11,3 +11,7 @@ I have code to preprocess these images as well, turn them greyscale / downscale 
 `yarn start`
 
 The ocr results for each card will be shown in the console
+
+##### Example of the results
+
+![example results](readme-example-results-image.png)
